@@ -120,9 +120,6 @@ func ListenToWsChannel() {
 			broadcastToAll(response)
 		}
 
-		/*response.Action = "Got Here"
-		response.Message = fmt.Sprintf("Some message, and action was %s", e.Action)
-		broadcastToAll(response)*/
 	}
 }
 
